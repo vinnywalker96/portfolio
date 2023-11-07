@@ -1,11 +1,10 @@
 import React from 'react'
-import { Form } from 'react-bootstrap'
 
 function Main() {
   return (
-    <>
-   
-  </>
+    <div className='container mx-auto'>
+
+    </div>
   
   )
 }
