@@ -11,6 +11,7 @@ function Navbar() {
           <nav className='md:ml-auto md:mr-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center'> 
             <a href='#about' className='mr-5 hover:text-white'>About Me</a>
             <a href='#skills' className='mr-5 hover:text-white'>Skills</a>
+            <a href='#experience' className='mr-5 hover:text-white'>Experience</a>
             <a href='#Projects' className='mr-5 hover:text-white'>Projects</a>
 
           </nav>

@@ -9,8 +9,10 @@ function About() {
                 Hi, I'm Marlvin.
                 <b className='mb-8 leading-relaxed'/>
                 <p className='mb-8 leading-relaxed'>
-                I'm a software engineer and a full stack web developer with a passion for problem solving and making  positive impact on the world.
-                I have experience working with JavaScript, Python, Java, React, Node.js, SpringBoot, Express, MongoDB, MySQL and PostgreSQL. 
+                I am an aspiring software engineer with a passion for problem solving and using technology to make a positive impact on the world. 
+                I have experience in test analysis, web development, and support, 
+                and I am proficient in a variety of programming languages, frameworks, databases, and testing tools. I am also a quick learner and I am eager to contribute to the success of your team.
+                <br/>
                 I'm currently looking for a full time position
                 </p>
                 <div className='flex justify-center'>
