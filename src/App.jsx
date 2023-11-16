@@ -1,12 +1,13 @@
 import './App.css'
-import NavBar from './components/Nav'
-import Main from './components/Main'
-
-
+import Navbar from './components/Navbar'
+import About from './components/About'
 
 function App() {
   return (
-    <NavBar />
+    <main className='text-gray-400 bg-gray-900 body-font'>
+      <Navbar />
+      <About />
+    </main>
   )
 }
 
