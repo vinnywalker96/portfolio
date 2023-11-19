@@ -10,10 +10,10 @@ function Navbar() {
             </a>
           <nav className='md:ml-auto md:mr-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center'> 
             <a href='#about' className='mr-5 hover:text-white'>About Me</a>
+            <a href='#projects' className='mr-5 hover:text-white'>Projects</a>
             <a href='#skills' className='mr-5 hover:text-white'>Skills</a>
             <a href='#experience' className='mr-5 hover:text-white'>Experience</a>
-            <a href='#Projects' className='mr-5 hover:text-white'>Projects</a>
-
+            
           </nav>
           <a href='#contact' className='inline-flex items-center bg-blue-800 border-0 
           py-1 px-3 focus:outline-none hover:bg-blue-700 rounded text-base mt-4 md:mt-0'>Contact Me
