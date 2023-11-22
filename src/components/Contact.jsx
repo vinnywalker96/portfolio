@@ -67,7 +67,8 @@ const Contact = () => {
                     name='name'
                     className='w-full bg-blue-600 rounded border border-blue-700 focus:border-indigo-500 
                     focus:ring-indigo-900 text-base outline-none text-blue-100 py-1 px-3 leading-8
-                    transition-colors duration-200 ease-in-out'/>
+                    transition-colors duration-200 ease-in-out'
+                    onChange={(e) => setName(e.target.value)}/>
                 </div>
                 <div className='relative mb-4'>
                      <label htmlFor='name' className='leading-7 text-sm text-blue-400'>Email</label>
@@ -78,6 +79,7 @@ const Contact = () => {
                      className='w-full bg-blue-600 rounded border border-blue-700 focus:border-indigo-500 
                     focus:ring-indigo-900 text-base outline-none text-blue-100 py-1 px-3 leading-8
                     transition-colors duration-200 ease-in-out'
+                     onChange={(e) => setEmail(e.target.value)}
                      />
                 </div>
                 <div className='relative mb-4'>
@@ -88,7 +90,8 @@ const Contact = () => {
                     className='w-full bg-blue-600 rounded border border-blue-700
                     focus:border-indigo-500 focus:ring-2 focus:ring-indigo-800 h-32 
                     text-base outline-none text-blue-100 py-1 px-3 resize-none
-                    leading-6 transition-colors duration-200 ease-in-out'/>
+                    leading-6 transition-colors duration-200 ease-in-out'
+                    onChange={(e) => setMessage(e.target.value)}/>
 
                 </div>
                 <button
