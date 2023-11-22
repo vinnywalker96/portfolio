@@ -16,6 +16,15 @@ const projects = [
          "image":"./project1.png",
          "url":"https://www.venthouse.co.za/"
     },
+     {
+        "title": "Trackwise",
+        "subtitle": "Streamline and optimize your inventory operations",
+        "description": "TrackWise, you can effortlessly track, \
+        manage, and control your inventory, ensuring smooth and \
+        efficient business operations.",
+         "image":"./trackwise.png",
+         "url":"https://trackwise-kaz8.onrender.com/"
+    },
     
     
     
