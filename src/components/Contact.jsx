@@ -12,16 +12,20 @@ const Contact = () => {
         )
         .join('&')
     }
-    const handleSumit = e => {
-        e.preventDefault();
-        fetch("/", {
-            method: "POST",
-            headers: {"Content-Type": "application/x-www-form-urlencoded"},
-            body: encode({"form-name": "contact", name, email, message})
-        })
-        .then(() => alert("Message sent!"))
-        .catch(error => alert(error));
-    }
+   const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+
+    fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+    })
+        .then(() => alert("Form successfully submitted"))
+        .catch((error) => alert(error));
+    };
   return (
     <section id="contact" className='relative'>
         <div className='container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap'>
