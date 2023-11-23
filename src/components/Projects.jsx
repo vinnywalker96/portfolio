@@ -25,9 +25,18 @@ const projects = [
          "image":"./trackwise.png",
          "url":"https://trackwise-kaz8.onrender.com/"
     },
+    {
+        "title": "Proximo ",
+        "subtitle": "Currently in development",
+        "description": "Proximo is your go-to solution for seamless \
+        task management and project coordination.With a focus on simplicity and efficiency,\
+        and  allows you to navigate your tasks effortlessly,\
+        ",
+         "image":"./proximo.png",
+         "url":""
+    },
     
-    
-    
+ 
 ]
 
 export default function Projects() {
