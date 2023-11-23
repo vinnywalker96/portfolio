@@ -12,7 +12,7 @@ function Navbar() {
             <a href='#about' className='mr-5 hover:text-white'>About Me</a>
             <a href='#projects' className='mr-5 hover:text-white'>Projects</a>
             <a href='#skills' className='mr-5 hover:text-white'>Skills</a>
-            <a href='#experience' className='mr-5 hover:text-white'>Experience</a>
+            {/* <a href='#experience' className='mr-5 hover:text-white'>Experience</a> */}
             
           </nav>
           <a href='#contact' className='inline-flex items-center bg-blue-800 border-0 
