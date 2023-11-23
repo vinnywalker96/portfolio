@@ -55,7 +55,9 @@ const Contact = () => {
             netlify
             name='contact'
             onSubmit={handleSubmit}
+            method='POST'
             className='lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0'>
+                <input type='hidden' name='form-name' value='contact' />
                 <h2 className='text-white sm:text-4xl text-3xl mb-1 font-medium title-font'>
                     Contact Me
                 </h2>
@@ -66,6 +68,8 @@ const Contact = () => {
                     type='text'
                     id='name'
                     name='name'
+                    
+                    placeholder='Your name'
                     className='w-full bg-blue-600 rounded border border-blue-700 focus:border-indigo-500 
                     focus:ring-indigo-900 text-base outline-none text-blue-100 py-1 px-3 leading-8
                     transition-colors duration-200 ease-in-out'
@@ -77,6 +81,7 @@ const Contact = () => {
                      type='email'
                      id='email'
                      name='email'
+                     placeholder='Your email'
                      className='w-full bg-blue-600 rounded border border-blue-700 focus:border-indigo-500 
                     focus:ring-indigo-900 text-base outline-none text-blue-100 py-1 px-3 leading-8
                     transition-colors duration-200 ease-in-out'
@@ -88,6 +93,8 @@ const Contact = () => {
                     <textarea 
                     id='message'
                     name='message'
+                    
+                    placeholder='Your message'
                     className='w-full bg-blue-600 rounded border border-blue-700
                     focus:border-indigo-500 focus:ring-2 focus:ring-indigo-800 h-32 
                     text-base outline-none text-blue-100 py-1 px-3 resize-none
