@@ -13,7 +13,7 @@ const skills = [
   "Tailwind CSS",
   "Pandas",
   "Numpy",
-  "Excel"
+  "Excel",
   "Bash",
   "Linux",
   "flask",
