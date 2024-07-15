@@ -8,13 +8,11 @@ const projects = [
          "url":"https://tnmrisk.com/"
     },
     {
-        "title": "Vent House",
-        "subtitle": "You safe with us",
-        "description": "The Vent House. Independant , \
-        reputable 100% Black owned Non Profit Organisation \
-        Recognised as a competent organisation in the mental related field",
-         "image":"./project1.png",
-         "url":"https://www.venthouse.co.za/"
+        "title": "Africa Transformation Centres Foundation",
+        "subtitle": "We help build brighter futures",
+        "description": "ATCF is a non-profit organisation founded in 2020 to improve the quality of life for young people and their communities in sub-Saharan Africa through mindset training.",
+        "image": "./atcf.png",
+         "url":"https://www.africatcf.org/"
     },
      {
         "title": "Trackwise",
@@ -26,14 +24,18 @@ const projects = [
          "url":"https://trackwise-kaz8.onrender.com/"
     },
     {
-        "title": "Proximo ",
-        "subtitle": "Currently in development",
-        "description": "Proximo is your go-to solution for seamless \
-        task management and project coordination.With a focus on simplicity and efficiency,\
-        and  allows you to navigate your tasks effortlessly,\
-        ",
-         "image":"./proximo.png",
-         "url":""
+        "title": "Toota ",
+        "subtitle": "Your ultimate solution for seamless transportation and logistics services.",
+        "description": "Toota is a e-haling solution with effortlessly connect with a diverse fleet of vehicles and experienced drivers to meet all your transportation needs. Whether you're moving goods.",
+         "image":"./toota.png",
+         "url":"https://www.tootapp.co.za/"
+    },
+    {
+        "title": "Inicio ",
+        "subtitle": "Your ultimate one shop for all onlines stores",
+        "description": "Inicio is a one shop for all catering all your needs.",
+         "image":"./inicio.png",
+         "url":"https://inicio-beta.vercel.app/"
     },
     
  
@@ -57,7 +59,7 @@ export default function Projects() {
                     <div className="flex relative">
                         <img 
                         alt="gallery"
-                        className="absolute inset-0 w-full h-full object-cover object-center"
+                        className="absolute inset-0 w-auto h-auto object-fit object-center"
                         src={project.image}/>
                         <div className=" px-8 py-10  relative z-10 w-full border-4
                          border-blue-800 bg-blue-900 opacity-0 hover:opacity-100">

@@ -11,6 +11,9 @@ const skills = [
   "PostgreSQL",
   "Bootstrap",
   "Tailwind CSS",
+  "Pandas",
+  "Numpy",
+  "Excel"
   "Bash",
   "Linux",
   "flask",
